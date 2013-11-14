@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    android:paddingTop="5dip" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lable_name" />
+
+    <EditText
+        android:id="@+id/phone_sec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_hint"
+        android:inputType="number"
+        android:maxLength="11"
+    	android:numeric="integer"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/query_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/btn_name" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical" />
+
+</LinearLayout>

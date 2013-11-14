@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">手机号码归属地查询</string>
+    <string name="menu_settings">版权所有：@Stonenyy</string>
+    <string name="title_activity_main">手机号码归属地查询</string>
+    <string name="lable_name">手机号码（段）：</string>
+    <string name="text_hint">例如：1390123</string>
+    <string name="btn_name">查询</string>
+
+</resources>
